@@ -18,6 +18,7 @@ ul{
    padding: 20px;
    
 }
+
 ul li a{
    text-decoration: none;
    padding: 20px;
@@ -86,4 +87,12 @@ text-decoration:underline blue;
     flex-direction: column;
     text-align: center;
    justify-content: center;
+    flex-wrap:wrap;
 }
+
+
+@media (max-width:750px){
+    .top{
+        flex-direction:column;
+
+    }}
